@@ -1,0 +1,1429 @@
+@font-face{
+  src: url(https://jeffdinsmore.com/Fonts/BentonSans-Regular-Regular.otf);
+  font-family: Benton;
+}
+@font-face{
+  src: url(https://jeffdinsmore.com/Fonts/NimbusSan-Bold.ttf);
+  font-family: Nimbus;
+}
+
+html, body{
+  background: hsl(0, 0%, 100%);
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+}
+
+/*---Mobile CSS---*/
+
+/*---Header---*/
+
+#logo {
+  width:60px;
+  float:left;
+  margin-top: 24px;
+  margin-left: 10%;
+  padding:0%;
+  list-style-type: none;
+}
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  height: 100px;
+
+}
+
+.navbar a {
+  float: left;
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  margin-right:14%;
+  margin-top:44px;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 24px;  
+  border: none;
+  outline: none;
+  color: #8FB7AE;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Benton;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  color: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  Font-family: Benton;
+  color: #8FB7AE;
+  font-size: 20px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#dropdown-text{
+  Font-family: Benton;
+  color: #8FB7AE;
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+  overflow:wrap;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+hr {
+  border-top: 2px solid #8FB7AE;
+   }
+
+
+/*----Footer---*/
+#footer{
+  width: 100%;
+  background: #8FB7AE;
+  height: 70px;
+  font-size: 18px;
+  font-family: Benton;
+  font-weight: 200;
+  clear: both;
+  position:relative;
+  margin-top:70px;
+  }
+  
+#footer ul li a{
+  color: #ffffff;
+}
+  #footer-left-nav{
+    float: left;
+    margin-top:27px;
+    margin-left: 15.5%;
+    list-style-type: none;
+    padding:0%;
+  }
+  #footer-left-nav li{
+    display: inline-block;
+    
+  }
+  
+  #footer-right-nav{
+    float: right;
+    margin-top: 27px;
+    margin-right: 15.5%;
+    
+  }
+  #footer-right-nav li{
+    display: inline-block;
+    list-style-type: none;
+  }
+  #Resume {
+    display: none;
+    
+  }
+  #Resume2 {
+    padding-right: 30%;
+    display: inline-block;
+    margin-top: 2px;
+  }
+  #portland {
+    color:white;
+    padding-right:0px;
+    display: none;
+  }
+  #Email {
+    color:white;
+    margin-top: 2px;
+  }
+  #Email2 {
+    display: none;
+  }
+#LinkedIn {
+  display: none;
+}
+
+#LinkedInImage {
+   margin-top:-2px;
+   display: inline-block;
+   width: 24px;
+}
+/*---End Footer---*/
+
+/*---Multipage CSS---*/
+/*----Body*/
+h1 {
+  Font-family: Nimbus;
+  color: #1B3F73;
+  font-size: 34px;
+  margin-left: 7%;
+  margin-right: 7%;
+  Padding-top: 60px;
+  font-weight: 900;
+}
+h2 {
+  font-family: Nimbus;
+  color: #EF7575;
+  font-size: 28px;
+  margin-left: 7%;
+  margin-right: 7%;
+  Padding-top: 20px;
+}
+h3 {
+  font-family: Nimbus;
+  color: #AAACC3;
+  font-size: 26px;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-top:20px;
+}
+h4 {
+  font-family: Nimbus;
+  color: #1B3F73;
+  font-size: 1em;
+  margin: 1% 1% 1% 1%;
+}
+.image {
+  display: block;
+  margin: auto;
+  padding-top:30px;
+}
+.picture {
+  max-width: 100%;
+  padding-top: 3%; 
+  padding-left: 4%;
+  padding-bottom:3%;
+}
+p {
+  color: #1B3F73;
+  margin-left: 7%;
+  font-size: 18px;
+  margin-right: 7%;
+  font-family: Benton;
+  line-height:26px;
+}
+
+.TopArrow {
+  float:right; 
+  margin:3% 10% 3% 0%; 
+}
+/*---End Multipage CSS---*/
+/*---End Body---*/
+
+
+/*---Home page CSS---*/
+.container-home {
+    width:86.5%;
+    height:100%;
+    background-color: none;
+    margin: auto;
+    box-sizing: border-box;
+  }
+.text-box-home{
+  width: 70%;
+  height: 60%;
+  background-color: #CFD0DD;
+  /*color: #396E35;*/
+  color:#1B3F73;
+  font-size: 22px;
+  padding: 5% 5% 6% 5%;
+  font-family: 'Benton';
+  clear:both;
+  margin: 0 auto;
+}
+.About {
+  font-size: 16px;
+  color: #1B3F73;
+  margin: -2% 0% 6% 0%;
+  font-family: Benton;
+}
+.picture-box-home {
+  margin: 0%;
+  padding: 0%;
+}
+.image-home {
+  width: 80%;
+  display: inline-block;
+  margin: 0% 0% 0% 10%;
+  padding: 3% 0% 0% 0%;
+}
+.image-home2 {
+  width: 80%;
+  display: inline-block;
+  margin: 0% 0% 0% 10%;
+  padding: 2% 0% 0% 0%;
+  
+}
+
+/*---End of Home CSS---*/
+
+
+/*---Astra Practice Partners CSS---*/
+ul.goal {
+  list-style-type: disc;
+  color: #1B3F73;
+  margin-left: 7%;
+  font-size: 18px;
+  margin-right: 7%;
+  font-family: Benton;
+}
+.container-Astra {
+  margin-left: 4%;
+  width:92%;
+  height:100%;
+  background-color: #EBF0EE;
+  position:relative;
+}
+.image-Astra{ 
+  width:80%;
+  display: block;
+  margin: auto;
+  padding-top:30px;
+}
+p.Astra {
+  color: #1B3F73;
+  margin-left: 4%;
+  font-size: 18px;
+  margin-right: 5%;
+  font-family: Benton;
+}
+p.text-below-Astra2 {
+  color:#396E35;
+  margin: .5% 5% 10% 4%;
+  font-size: 18px;
+  font-family: Benton;
+}
+p.text-below-Astra3 {
+  color:#396E35;
+  margin: .5% 5% 6% 4%;
+  font-size: 18px;
+  margin-right: 5%;
+  font-family: Benton; 
+  padding: 0% 0% 4% 0%;
+}
+.text-box-Astra {
+  color: #396E35;
+  margin: 9.5% 5% 0% 48%;
+  font-size: 18px;
+  font-family: Benton;
+}
+.text-below-Astra {
+  margin: 30% 5% 2% 4%;
+  color: #1B3F73;
+  font-size: 18px;
+  font-family: Benton;
+  clear: left;
+}
+/*---End of Astra Practice Partners CSS---*/
+
+/*---New Seasons CSS---*/
+.image-NewSeasons {
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding-top:30px;
+}
+
+.image-tradelabel {
+  width:56%;
+  margin: 0% 0% 2% 7%;
+  float:left;
+}
+.text-right-NSM {
+  margin: 5.2% 10% 8% 7%;
+  color: #1B3F73;
+  font-size: 18px;
+  font-family: Benton;
+  clear:both;
+  line-height:22px;
+}
+p.NSM-below {
+  color: #396E35;
+  margin: 0% 52% 0% 10%;
+  font-size: 22px;
+  font-family: Benton;
+  clear:left;
+  display:none;
+}
+p.NSM-below2 {
+  color: #396E35;
+  margin: 0% 5% 0% 66%;
+  font-size: 18px;
+  font-family: Benton;
+  Line-height: 22px;
+}
+
+/*---End of New Seasons CSS---*/
+
+/*---ProofScan CSS---*/
+.container {
+  margin-left: 4%;
+  width:92%;
+  height:100%;
+  background-color:#EBF0EE;
+  position:relative;
+}
+.container2 {
+  margin-left: 4%;
+  width:92%;
+  height:100%;
+  background-color: #FDE7E2;
+  position:relative;
+ }
+.container3 {
+  margin-left: 22%;
+  margin-right: 22%;
+  width: 300px;
+  height: 215px;
+  padding: 40px;
+  background-color:rgb(220, 220, 220);
+  position:relative;
+}
+.container-pink {
+  margin-left: 4%;
+  width:92%;
+  height:100%;
+  background-color:#FDE7E2;
+  position:relative;
+}
+.container-pink2 {
+  margin-left: 4%;
+  width:92%;
+  height:100%;
+  background-color: #FDE7E2;
+  position:relative;
+ }
+ .container-pink-score {
+  margin-left: 4%;
+  width:92%;
+  height:100%;
+  background-color:#FDE7E2;
+  position:relative;
+ }
+.container-green {
+  margin-left: 4%;
+  width:92%;
+  max-height:100%;
+  background-color:#EBF0EE;
+  position:relative;
+}
+.container-green2 {
+  margin-left: 4%;
+  width:92%;
+  height:100%;
+  background-color: #EBF0EE;
+  position:relative;
+ }
+ .image-single{
+  width:25%;
+}
+ .image-header-ProofScan{
+  width: 70%;
+  display: block;
+  margin: auto;
+  padding-top:30px;
+  }
+ .picture3 {
+  padding: 3% 0% 3% 4%;
+  }
+.picture4 {
+    padding-left: 4%;
+    padding-bottom:4%;
+  }  
+  p.p5 {
+    color: #396E35;
+    margin-left: 7%;
+    font-size: 18px;
+    margin-right: 7%;
+    font-family: Benton;
+  }
+.Table-desktop {
+    display: none;
+  }
+  .Table-mobile-large{
+      display: none;
+  }
+  .Table-mobile-small{
+    font-family: Benton;
+      border-collapse: collapse;
+      width: 86%;
+      background-color: #CADBF9;
+      display: block;
+      margin: auto;
+  }
+  td {
+    border: 1px solid rgb(177, 177, 177);
+    text-align: left;
+    color: #1B3F73;
+    font-size: 18px;
+    padding: 8px;
+  }
+  
+  th {
+    border: 1px solid rgb(177, 177, 177);
+    text-align: center;
+    color: #1B3F73;
+    font-size: 18px;
+    padding: 5px;
+    font-family: Nimbus;
+  }
+  
+.text-box {
+  width:45%;
+  height:55%;
+  background-color: #D9E4E1;
+  position:absolute;
+  right:7%;
+  top:13%;
+  color: #1B3F73;
+  font-size: 18px;
+  padding: 5%;
+  font-family: Benton;
+  overflow:scroll;
+}
+ .text-box2 {
+  width:45%;
+  height:55%;
+  background-color: #FAD2CB;
+  position:absolute;
+  right:7%;
+  top:13%;
+  color: #1B3F73;
+  font-size: 18px;
+  padding: 5%;
+  font-family: 'Benton';
+  overflow:scroll;
+ }
+.text-box3 {
+  width: 20%;
+  height:52%;
+  background-color: #FAD2CB;
+  position:absolute;
+  right:4%;
+  top:13%;
+  color: #1B3F73;
+  font-size: 18px;
+  padding: 5%;
+  font-family: 'Benton';
+  overflow:scroll;
+ }
+ .text-box-green {
+  width:45%;
+  height:55%;
+  background-color: #D9E4E1;
+  position:absolute;
+  right:7%;
+  top:13%;
+  color: #1B3F73;
+  font-size: 18px;
+  padding: 5%;
+  font-family: Benton;
+  overflow:scroll;
+}
+.text-box-green2 {
+  width: 20%;
+  height:42%;
+  background-color: #D9E4E1;
+  position:absolute;
+  right:4%;
+  top:16%;
+  color: #1B3F73;
+  font-size: 18px;
+  padding: 5%;
+  font-family: 'Benton';
+  overflow:scroll;
+ }
+ .text-box-pink {
+  width:45%;
+  height:55%;
+  background-color: #FAD2CB;
+  position:absolute;
+  right:7%;
+  top:13%;
+  color: #1B3F73;
+  font-size: 18px;
+  padding: 5%;
+  font-family: Benton;
+  overflow:scroll;
+}
+ul.bullet{
+  list-style-type:disc;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute; 
+}
+/*---End of ProofScan CSS---*/
+
+/*---Shanghai Gardens CSS---*/
+.container-Shanghai {
+  margin-left: 4%;
+  width:92%;
+  max-height:100%;
+  background-color: #FDE7E2;
+  position:relative;
+}
+.image1 {
+  margin-left: 7%;
+  padding-top:20px;
+  width:86%;
+}
+.image-callouts {
+  width:86%;
+  margin:4% 0% 0% 7%;
+}
+.image-callouts2 {
+  width:86%;
+  margin:6% 0% 0% 7%;
+}
+.image-callouts3 {
+  width:86%;
+  margin:6% 0% 0% 7%;
+}
+.image-gif {
+  display: block;
+  margin: 0 auto;
+  padding-top:30px;
+  width:86%;
+}
+.image-header-Shanghai {
+  display: block;
+  margin: auto;
+  padding-top:30px;
+  width:75%;
+}
+.image-shanghai {
+  display: block;
+  margin: 0 auto;
+  padding-top:30px;
+  width: 86%;
+}
+.image-tag {
+  width:56%;
+  margin: 0% 0% 6% 7%;
+  float:left;
+}
+li.card-sort2 {
+  float:left;
+  padding-right:42.5%;
+}
+ul.card-sort {
+  list-style-type:none;
+  margin:4% 0% 0% 12%;
+  padding: 0%;
+  color:#1B3F73;
+  font-size:3.0vw;
+  font-family:Nimbus;
+}
+.picture-shanghai {
+  margin:1% 0% 0% 7%;
+  clear:left;
+  width:86%;
+}
+p.p3 {
+  color: #396E35;
+  margin-left: 10%;
+  font-size: 18px;
+  margin-right: 10%;
+  font-family: Benton;
+  /*text-align: center;*/
+}
+p.p4 {
+  color: #396E35;
+  margin-left: 7%;
+  font-size: 18px;
+  margin-right: 7%;
+  font-family: Benton;
+  /*text-align: center;*/
+}
+p.Shanghai-text {
+  color: #396E35;
+  margin-left: 4%;
+  font-size: 18px;
+  margin-right: 10%;
+  font-family: Benton;
+}
+p.Shanghai-text-CallOut {
+  color: #396E35;
+  margin-left: 7%;
+  font-size: 18px;
+  margin-right: 7%;
+  font-family: Benton;
+} 
+/*---End of Shanghai Gardens CSS---*/
+
+/*---Unknown---*/
+p2 {
+  font-family: Nimbus;
+  color: #1B3F73;
+  margin-left: 10%;
+  font-size: 24px;
+  margin-right: 10%;
+}
+.picture2 {
+  max-width: 100%;
+  padding-left: 14%;
+  padding-top: 3.3%;
+}
+/*td:nth-child(even) {
+  padding:10px;}*/
+
+  ul.text-score {
+    list-style-type: square;
+  }
+/*---End of Unknown---*/
+
+@media screen and (min-width: 319px) {
+
+  #Resume2 {
+      padding-right: 26px;
+      display: inline-block;
+      margin-top: 2px;
+    }
+  
+
+  .TopArrow {
+    width:40px
+  }
+/*---ProofScan CSS---*/
+.container3 {
+  margin: 0 auto;
+  width: 270px;
+  height: 152px;
+  padding: 10px;
+  background-color:rgb(220, 220, 220);
+  position:relative;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  
+}
+.video2{
+    width:270px; height:151.87px;
+  }
+  td {
+    width:40.5%;
+  }
+}
+  /*---End of ProofScan CSS---*/
+
+  @media screen and (min-width: 359px) {
+  
+  #Resume2 {
+      padding-right: 48px;
+      display: inline-block;
+      margin-top: 2px;
+    }
+    .text-box-home{
+      font-size:24px;
+    }
+/*---ProofScan CSS---*/
+.container3 {
+  margin: 0 auto;
+  width: 310px;
+  height: 174.37px;
+  padding: 10px;
+  background-color:rgb(220, 220, 220);
+  position:relative;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.video2{
+    width:310px; height:174.37px;
+  }
+/*---End of ProofScan CSS---*/
+  }
+
+  
+  @media screen and (min-width: 411px) {
+    
+  #Resume2 {
+      padding-right: 66px;
+      display: inline-block;
+      margin-top: 2px;
+    }
+    .TopArrow {
+      width:55px
+    }
+/*---ProofScan CSS---*/
+.container3 {
+  margin: 0 auto;
+  width: 360px;
+  height: 202.5px;
+  padding: 15px;
+  background-color:rgb(220, 220, 220);
+  position:relative;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  
+}
+.video2{
+    width:360px; height:202.5px;
+  }
+  td {
+    font-size: 18px;
+  }
+  th {
+    font-size: 20px;
+  }
+/*---End of ProofScan CSS---*/
+  }
+  @media screen and (min-width: 479px) {
+  
+  #Resume2 {
+      padding-right: 92px;
+      display: inline-block;
+      margin-top: 2px;
+    }
+
+/*---ProofScan CSS---*/
+.container3 {
+  margin: 0 auto;
+  width: 420px;
+  height: 236.25px;
+  padding: 15px;
+  background-color:rgb(220, 220, 220);
+  position:relative;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  
+}
+.video2{
+    width:420px; height:236.25px;
+  }
+/*---End of ProofScan CSS---*/
+
+  }
+@media screen and (min-width: 567px) {
+  .TopArrow {
+    width:70px
+  }
+  .image-header-Shanghai {
+    width: 50%;
+  }
+  
+
+  .container3 {
+    margin: 0 auto;
+    width: 500px;
+    height: 281.25px;
+    padding: 20px;
+    background-color:rgb(220, 220, 220);
+    position:relative;
+  }
+  .video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    
+  }
+  .video2{
+      width:500px; height:281.25px;
+    }
+  .image-header-ProofScan{
+    width: 38%;
+    }
+}
+
+
+
+
+
+/*---Desktop CSS---*/
+
+@media screen and (min-width: 580px) {
+/*----Footer---*/
+#footer{
+  width: 100%;
+  background: #8FB7AE;
+  height: 70px;
+  font-size: 20px;
+  font-family: Benton;
+  font-weight: 200;
+  }
+  
+footer ul li a{
+  color: #ffffff;
+}
+  #footer-left-nav{
+    float: left;
+    margin-top:25px;
+    margin-left: 10.0%;
+    list-style-type: none;
+    padding:0%;
+  }
+  #footer-left-nav li{
+    display: inline-block;
+    
+  }
+  
+  #footer-right-nav{
+    float: right;
+    margin-top: 25px;
+    margin-right: 10%;
+  }
+  #footer-right-nav li{
+    display: inline-block;
+    list-style-type: none;
+  }
+  #LinkedInImage {display:none; }
+  #LinkedIn {display:inline-block;}
+   
+  
+  #Resume {padding-left:100px;
+  display: inline-block;
+  }
+  #Resume2 {
+    display: none;
+    padding:0px;
+  }
+/*---End Footer---*/
+
+/*---Home Page---*/
+.container-home {
+  margin-left: 10%;
+  width:86.5%;
+  height:100%;
+  background-color: none;
+  position:relative;
+  box-sizing: border-box;
+}
+.About {
+  font-size: 14px;
+  color: #1B3F73;
+  margin: -4% 0% 10% 0%;
+  font-family: Benton;
+}
+.text-box-home {
+  width: 21%;
+  height:83%;
+  margin:0.25% 0% 0% 0%;
+  font-size: 2.8vw;
+  padding: 3% 5% 3% 5%;
+ }
+ .picture-box-home {
+  padding-left:.5%;
+  margin-top: .5%;
+  position: relative;
+  }
+ .image-home {
+  width: 30%;
+  margin: 0% 0% 0% 31.5%;
+  padding: .25% .25% .25% 0%;
+  display: inline-block;
+}
+.image-home2 {
+  width: 30%;
+  display: inline-block;
+  margin: 0% 0% 0% 0%;
+  padding: .25% .25% .25% .25%;
+}
+/*---End Home Page---*/
+
+
+
+.Table-mobile-large{
+    font-family: Benton;
+    border-collapse: collapse;
+    width: 86%;
+    background-color: #CADBF9;
+    display: block;
+    margin: auto;
+}
+.Table-mobile-small{
+  display: none;
+}
+td {
+width: 27%;
+}
+/*---ProofScan CSS---*/
+}
+
+@media screen and (min-width: 667px) {
+  h1 {
+    font-size: 48px;
+    margin-left: 10%;
+    margin-right: 10%;
+    Padding-top: 100px;
+    font-weight: 900;
+  }
+  
+  h2 {
+    font-size: 38px;
+    margin-left: 10%;
+    margin-right: 10%;
+    Padding-top: 40px;
+  }
+  h3 {
+    font-size: 32px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 30px;
+  }
+  p {
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  /*---Astra Practice---*/
+  .container-Astra {
+    margin-left: 6.5%;
+    width:86.5%;
+  }
+  .image-Astra{ 
+    width:70%;
+  }
+  p.Astra {
+    font-size: 24px;
+  }
+  p.text-below-Astra2 {
+    font-size: 24px;
+  }
+  p.text-below-Astra3 {
+    font-size: 24px;
+  }
+  .text-below-Astra {
+    font-size: 24px;
+  }
+  .text-box-Astra {
+    font-size: 24px;
+  }
+  ul.goal {
+    list-style-type: disc;
+    color: #1B3F73;
+    margin-left: 10%;
+    font-size: 24px;
+    margin-right: 10%;
+    font-family: Benton;
+  }
+
+/*---End of Astra Practice---*/
+
+/*---ProofScan---*/
+  p.p5 {
+    font-size: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .container {
+    margin-left: 6.5%;
+    width:86.5%;
+  }
+  .container2 {
+    margin-left: 6.5%;
+    width:86.5%;
+}
+  .container3 {
+  margin: 0 auto;
+  width: 580px;
+  height: 326.25px;
+  padding: 25px;
+  background-color:rgb(220, 220, 220);
+  position:relative;
+}
+.container-green {
+  margin-left: 6.5%;
+  width:86.5%;
+}
+.container-green2 {
+  margin-left: 6.5%;
+  width:86.5%;
+ }
+.container-pink {
+  margin-left: 6.5%;
+  width:86.5%;
+}
+.container-pink2 {
+  margin-left: 6.5%;
+  width:86.5%;
+ }
+ .container-pink-score {
+  margin-left: 6.5%;
+  width:86.5%;
+ }
+ .Table-mobile-large{
+    font-family: Benton;
+    border-collapse: collapse;
+    width: 81%;
+    background-color: #CADBF9;
+    display: block;
+    margin: auto;
+ }
+.text-box {
+  font-size: 24px;
+  overflow:scroll;
+}
+.text-box2 {
+  font-size: 24px;
+ }
+.text-box3 {
+  font-size: 24px;
+ }
+ .text-box-green {
+  font-size: 24px;
+}
+.text-box-green2 {
+  font-size: 24px;
+ }
+ .text-box-pink {
+  font-size: 24px;
+}
+td {
+  font-size: 24px;
+}
+th {
+  font-size: 24px;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  
+}
+.video2{
+    width:580px; height:326.25px;
+  }
+  .image-single{
+    width:25%;
+  }
+/*---End of ProofScan---*/
+
+
+/*---New Seasons---*/
+.image-NewSeasons {
+  width: 60%;
+}
+.image-tag {
+  width:46%;
+  margin: 0% 0% 3% 10%;
+  float:left;
+}
+.image-tradelabel {
+  width:46%;
+  margin: 0% 0% 3% 10%;
+  float:left;
+}
+p.NSM-below {
+  color: #396E35;
+  margin: 0% 52% 0% 10%;
+  font-size: 22px;
+  font-family: Benton;
+  clear:left;
+  display:none;
+}
+p.NSM-below2 {
+  margin: 0% 10% 0% 60%;
+  font-size: 22px;
+  Line-height: normal;
+}
+.text-right-NSM {
+  margin: 0% 10% 10% 10%;
+  font-size: 24px;
+  line-height: normal;
+}
+
+/*---End of New Seasons---*/
+
+/*---Shanghai Gardens---*/
+.container-Shanghai {
+  margin-left: 6.5%;
+  width:86.5%;
+}
+.image1 {
+  margin-left: 10%;
+  padding-top:20px;
+  width:75%;
+}
+.image-callouts {
+  width:65%;
+  margin:4% 0% 0% 10%;
+}
+.image-callouts2 {
+  width:73.4%;
+  margin:6% 0% 0% 10%;
+}
+.image-callouts3 {
+  width:68%;
+  margin:6% 0% 0% 10%;
+}
+.image-gif {
+  width:80%;
+}
+.image-shanghai {
+  width: 80%;
+}
+p.Shanghai-text {
+  margin-left: 4%;
+  font-size: 24px;
+  margin-right: 50%;
+}
+p.Shanghai-text-CallOut {
+  margin-left: 10%;
+  font-size: 20px;
+  margin-right: 10%;
+} 
+p.p4 {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+li.card-sort2 {
+  padding-right:44.0%;
+}
+ul.card-sort {
+  margin:4% 0% 0% 15%;
+}
+.picture-shanghai {
+  margin:1% 0% 0% 10%;
+}
+}
+/*---End Mobile CSS---*/
+
+@media screen and (min-width: 672px) {
+  #Email {
+  display: none;
+  }
+  #Email2 {
+  display: inline-block;
+  color:white;
+  margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 732px) {
+/*---ProofScan CSS---*/
+.container3 {
+  margin: 0 auto;
+  width: 660px;
+  height: 415px;
+  padding: 30px;
+  background-color:rgb(220, 220, 220);
+  position:relative;
+}
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.video2{
+    width:660px; height:415px;
+  }
+/*---ProofScan CSS---*/
+}
+@media screen and (min-width: 900px) {
+ /*----Header---*/
+ .navbar {
+  overflow: hidden;
+  background-color: white;
+  height: 140px;
+
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+  margin-right:11%;
+  margin-top:77.5px;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 32px;  
+  border: none;
+  outline: none;
+  color: #8FB7AE;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Benton;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  color: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 4px 8px 8px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  Font-family: Benton;
+  color: #8FB7AE;
+  font-size: 22px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+#dropdown-text{
+  Font-family: Benton;
+  color: #8FB7AE;
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 0px 0px;
+  overflow:wrap;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+#logo {
+width: 100px;
+}
+hr {
+border-top: 2px solid #8FB7AE;
+ }
+/*---End Header---*/
+
+.About {
+  font-size: 18px;
+}
+#portland {
+color:white;
+padding-right:60px;
+display: inline-block;
+}
+li.card-sort2 {
+  float:left; 
+  padding-right:22.6%;
+}
+ul.card-sort {
+  list-style-type:none;
+  margin:4% 0% 0% 12%;
+  padding: 0%;
+  color:#1B3F73;
+  font-size:2.0vw;
+  font-family:Nimbus;
+}
+.picture-shanghai {
+  width:50%;
+  margin:1% 0% 0% 10%;
+}
+.image1 {
+  width:60%;
+}
+.image-shanghai {
+  width:55%;
+}
+.image-gif {
+  width:60%;
+}
+p.p3 {
+  color: #396E35;
+  margin-left: 20%;
+  font-size: 22px;
+  margin-right: 10%;
+  font-family: Benton;
+  /*text-align: center;*/
+}
+p.p4 {
+  margin-left: 22.5%;
+  font-size: 22px;
+  margin-right: 10%;
+}
+/*---New Seasons---*/
+.image-tag {
+  width:36%;
+  margin: 0% 0% 1% 10%;
+  float:left;
+}
+.image-tradelabel {
+  width:36%;
+  margin: 0% 0% 1% 10%;
+  float:left;
+}
+p.NSM-below {
+  color: #396E35;
+  margin: 0% 52% 0% 10%;
+  font-size: 22px;
+  font-family: Benton;
+  clear:left;
+  display:block;
+}
+p.NSM-below2 {
+  display:none;
+}
+.text-right-NSM {
+  margin: 0% 10% 0% 50%;
+  font-size: 24px;
+  clear:none;
+}
+}
+
+@media screen and (min-width: 992px) {
+.text-box-home {
+  font-size: 2.6vw;
+ }
+}
+ 
+@media screen and (min-width: 1090px) {
+.Table-desktop {
+  font-family: Benton;
+  border-collapse: collapse;
+  width: 81%;
+  background-color: #CADBF9;
+  display: block;
+  margin: auto;
+}
+.Table-mobile-large{
+  display: none;
+}
+td {width:0%}
+}
+

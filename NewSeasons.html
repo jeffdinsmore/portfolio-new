@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff Dinsmore - UX Designer</title>
+    <meta property="og:title" content="Software Developer" />
+    <meta property="og:url" content="https://jeffdinsmore.com" />
+    <meta property="og:image" content="https://jeffdinsmore.com/images/OGWebsiteLogo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Software Developer & UX Design Portfolio" />
+
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="https://jeffdinsmore.com/images/LogoMark2.png">
+    <link rel="preload" href="https://jeffdinsmore.com/Fonts/BentonSans-Regular-Regular.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="https://jeffdinsmore.com/Fonts/NimbusSan-Bold.ttf" as="font" type="font/ttf" crossorigin>
+</head>
+
+<body>
+  <script src="https://jeffdinsmore.com/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<header id="Top"></header>
+<a href="https://jeffdinsmore.com"><img id="logo" alt="Jeff Dinsmore website logo. Click or tap to go to home page" src="https://jeffdinsmore.com/images/WebsiteLogo.png"></a>
+<div class="navbar">
+  
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Portfolio
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="https://jeffdinsmore.com/ProofScan">ProofScan</span></a>
+    <a href="https://jeffdinsmore.com/AstraPracticePartners">Astra Practice Partners</a>
+    <a href="https://jeffdinsmore.com/NewSeasons">New Seasons</a>
+    <a href="https://jeffdinsmore.com/ShanghaiGardens">Shanghai Gardens</a>
+  </div>
+  </div> 
+</div>
+<hr>
+
+<br><br>
+
+    <img class="image-NewSeasons"  alt="New Seasons logo" src="https://jeffdinsmore.com/images/NewSeasons/image1.png">
+
+ <h1>PROJECT SUMMARY</h1>
+
+ <p>I discovered employees entering data and auditing the bulk grocery section was consuming valuable employee time.</p>
+     
+ <p>Department managers from twenty stores needed a streamlined global system to audit and input bulk grocery PLUs into the Aisle iQ database.</p>
+     
+ <P>After several interviews, I observed that the tag could not be successfully scanned and thus had to be typed manually.</P>
+     
+ <p><span style="font-family:Nimbus;">My redesign included…</span>
+   removal of superfluous tag information 
+   updated barcode that successfully scanned for faster, more efficient data entry</p>
+     
+ <p>The redesign resulted in…
+    100% scanning accuracy versus previous 96%
+    weekly labor savings companywide of 13.33 hours
+    annual labor savings companywide of $12,458.33</p>
+     
+ <h2>Overview</h2>
+     
+ <p><span style="font-family:Nimbus;">Project Type:</span> New tag design and placement for bulk foods</p>
+     
+ <p><span style="font-family:Nimbus;">My Role:</span> UX and Service Designer</p>
+     
+ <p><span style="font-family:Nimbus;">Skills:</span> Human-centered design, user flow, interaction design, wireframing, iterative prototyping, service design</p>
+     
+ <p><span style="font-family:Nimbus;">Tools:</span> Word, Excel, Google Sheets</p>
+     
+ <p><span style="font-family:Nimbus;">Duration:</span> Three months</p>
+     
+ <H1>CHALLENGE & GOAL</H1> 
+ 
+ <h2>Challenge</h2>
+    
+ <p>User interviews uncovered that the barcodes on the existing tags in bulk grocery were not properly formatted, and when scanned they did not generate the correct data for the auditing and Aisle iQ apps.</p>
+     
+ <p>Thus, users needed to type each individual PLU into the hand scanner which significantly increased labor hours and caused employee frustration.</p>
+     
+ <h2>Goal</h2>
+ <p>My goal was to create a barcode that would generate the correct data when scanned for the auditing and Aisle iQ apps.</p>
+     
+ <p>In addition, I needed to develop the installation procedure and use of the new barcodes on the bulk grocery tags to reduce labor costs.</p>
+     
+ <h1>Current Situation</h1>
+ <img class="image-tag" alt="Bulk tag original design" src="https://jeffdinsmore.com/images/NewSeasons/OldTagDesign.png">
+ <p class="NSM-below2">Busy layout that is difficult to decipher</p>
+ <div class="text-right-NSM">The old tag design included a barcode that did not produce correct data when scanned, a confusing layout, and seven pieces of unnecessary information.
+ <br><br>   
+ This created a confusing user experience with overwhelming information when scanning and ordering.</div>
+ <p class="NSM-below" style="margin-bottom:6%">Busy layout that is difficult to decipher.</p>
+     
+ <h2 style="clear:left">User Journey</h2>
+
+ <p>Interviews with stakeholders, developers and users illustrated that inputting the bulk codes by typing numbers on a hand scanner took approximately three hours. Many users also experienced the hand scanner crashing during the process, which caused frustration.</p>
+     
+ <p>The high volume of information on the current tag caused users to make ordering and auditing mistakes with a 95 percent accuracy rating.</p>
+     
+ <h1>DESIGN</h1>
+ 
+ 
+ <img class="image-tag" alt="New tag design" src="https://jeffdinsmore.com/images/NewSeasons/NewTagDesign.png">
+ <p class="NSM-below2">Sleek and streamlined design</p>
+ <div class="text-right-NSM">The redesigned tag incorporates a smaller barcode that generates correct data, with a cleaner layout where extraneous details have been omitted.
+ <br><br>    
+ The E pattern presents information that is easily digestible by users.</div>
+    
+ <p class="NSM-below" style="margin-bottom:6%">Sleek and streamlined design</p>
+     
+ <h2>Tag Placement</h2>
+ <img class="image-tradelabel" alt="first iteration of tag placement on the side of the bulk bin" src="https://jeffdinsmore.com/images/NewSeasons/BarcodeOnBin.png">
+ <p class="NSM-below2">The tag on the side of the bin wore out quickly from cleaning and filling the bins</p>
+ <div class="text-right-NSM"><span style="font-family:Nimbus;">The first iteration:</span> tag barcodes placed on the side of the bulk bins.
+ 
+ <br><br>
+ Current placement was based on quick and easy tag installation.
+ 
+ <br><br>
+ This location proved challenging because when bins were cleaned or dry goods were changed, the barcodes were scrubbed off and stickers would need to be reapplied.</div>
+    
+ <p class="NSM-below" style="margin-bottom:6%">The tag on the side of the bin wore out quickly from cleaning and filling the bins</p>
+
+ <img class="image-tradelabel" alt ="tag placement in the middle of the bulk trade label" src="https://jeffdinsmore.com/images/NewSeasons/CenterBarcodeTLArrow.png">
+ <p class="NSM-below2">The scanner might accidentally scan the opposing barcode since they are so close</p>
+     
+ <div class="text-right-NSM"><span style="font-family:Nimbus;">The second iteration:</span> below where barcodes were placed in the middle of the Trade Label. Stickers no longer needed to be reapplied, but a new problem emerged. The close proximity of the order barcode and PLU barcode caused scanning issues.</div>
+    
+ <p class="NSM-below" style="margin-bottom:6%">The scanner might accidentally scan the opposing barcode since they are so close</p>
+
+ <img class="image-tradelabel" alt="tag placement bottom right corner or bulk trade label" src="https://jeffdinsmore.com/images/NewSeasons/FinalBarcodeLocationTL.png">
+ <p class="NSM-below2">Notice the barcode is small enough that it does not cover up nutritional information</p>
+     
+ <div class="text-right-NSM"><span style="font-family:Nimbus;">The solution:</span> to place the barcode at the bottom right corner of the Trade Label. This allowed easy scanning of the PLU barcode and only covered the effective date of the trade label, which was unimportant information.</div>
+    
+ <p class="NSM-below">Notice the barcode is small enough that it does not cover up nutritional information</p>
+     
+ <h1>CONCLUSION</h1>
+ <p>The new tag significantly reduced the time spent typing numbers by hand. Auditing increased to 100% accuracy while ordering increased to 99% accuracy.</p>
+     
+ <p>The updated tag includes strategically-placed bar codes that populate correct information when scanned, easily transferred to the Aisle iQ and Audit apps.</p>
+     
+ <p><span style="font-family:Nimbus">Previous labor hours/week:</span> 15.0
+  <br>
+  <span style="font-family:Nimbus">After new tag implementation labor hours/week:</span> 1.67</p>
+     
+ <p><span style="font-family:Nimbus">Previous labor cost/week:</span> $270.00
+  <br>
+  <span style="font-family:Nimbus">After new tag implementation (labor cost/week):</span> $30.42</p>
+     
+ <p><span style="font-family:Nimbus">Previous annual labor dollars:</span> $14,040.00
+  <br>
+  <span style="font-family:Nimbus">After new tag implementation annual labor dollars:</span> $1,581.67</p>
+     
+ <p style="clear:right"><span style="font-family:Nimbus">Annual Labor Savings:</span> $12,458.33</p>
+ 
+ <a href="#Top"><img class="TopArrow" alt="tap or click on arrow to return to top of page" src="https://jeffdinsmore.com/images/TopArrow.png"></a>
+
+ <br><br><br><br>
+ <footer id="footer">
+  <ul id="footer-left-nav">
+      <li><a href="https://www.linkedin.com/in/jeffmdinsmore/"><img id="LinkedInImage" alt="tap or click on LinkedIn image to go to Jeff Dinsmore's LinkedIn page" src="https://jeffdinsmore.com/images/LinkedinLogo.png"><span id="LinkedIn">LinkedIn</span></a></li>
+      <li><span id="Resume"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
+  </ul>
+  <ul id="footer-right-nav">
+      <li><span id="portland">Portland, OR</span></li>
+      <li><span id="Resume2"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
+      <li><span id="Email"><a href="mailto:hello@jeffdinsmore.com">Email</a></span></li>
+      <li><span id="Email2"><a href="mailto:hello@jeffdinsmore.com">hello@jeffdinsmore.com</a></span></li>
+  </ul>
+</footer>
+ 
+ <script>
+ /* When the user clicks on the button, 
+ toggle between hiding and showing the dropdown content */
+ function myFunction() {
+   document.getElementById("myDropdown").classList.toggle("show");
+ }
+ 
+ // Close the dropdown if the user clicks outside of it
+ window.onclick = function(e) {
+   if (!e.target.matches('.dropbtn')) {
+   var myDropdown = document.getElementById("myDropdown");
+     if (myDropdown.classList.contains('show')) {
+       myDropdown.classList.remove('show');
+     }
+   }
+ }
+</script>
+</body>
+</html>

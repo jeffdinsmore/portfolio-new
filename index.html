@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff Dinsmore - UX Designer</title>
+    <meta property="og:title" content="Software Developer" />
+    <meta property="og:url" content="https://jeffdinsmore.com" />
+    <meta property="og:image" content="https://jeffdinsmore.com/images/OGWebsiteLogo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Software Developer & UX Design Portfolio" />
+
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="https://jeffdinsmore.com/images/LogoMark2.png">
+    <link rel="preload" href="https://jeffdinsmore.com/Fonts/BentonSans-Regular-Regular.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="https://jeffdinsmore.com/Fonts/NimbusSan-Bold.ttf" as="font" type="font/ttf" crossorigin>
+
+</head>
+<body>
+
+
+    <a href="https://jeffdinsmore.com"><img id="logo" alt="Jeff Dinsmore website logo. Click or tap to go to home page" src="https://jeffdinsmore.com/images/WebsiteLogo.png"></a>
+    <div class="navbar">
+      
+      <div class="dropdown">
+      <button class="dropbtn" onclick="myFunction()">Portfolio
+      </button>
+      <div class="dropdown-content" id="myDropdown">
+        <a href="https://jeffdinsmore.com/ProofScan">ProofScan</span></a>
+        <a href="https://jeffdinsmore.com/AstraPracticePartners">Astra Practice Partners</a>
+        <a href="https://jeffdinsmore.com/NewSeasons">New Seasons</a>
+        <a href="https://jeffdinsmore.com/ShanghaiGardens">Shanghai Gardens</a>
+      </div>
+      </div> 
+    </div>
+    <hr>
+<br><br>
+<body>
+    <div class="container-home">
+        <div class="text-box-home"><p  class="About">About me</p>I'm Jeff, a UX Designer who enjoys designing websites, programs and apps that people love to use!</div>
+        
+        <div class="picture-box-home"><a href="https://jeffdinsmore.com/ProofScan"><img class="image-home" src="https://jeffdinsmore.com/images/TransparentPath/ProofScanLogo2.png" alt="Logo of ProofScan app by Transparent Path" ></a> 
+        <a href="https://jeffdinsmore.com/NewSeasons"><img class="image-home2" src="https://jeffdinsmore.com/images/NewSeasons/NSMWilliams2.png" alt="Image of New Seasons Market Williams store"></a>
+        <a href="https://jeffdinsmore.com/ShanghaiGardens"><img class="image-home" src="https://jeffdinsmore.com/images/ShanghaiGardens/ShanghaiBuilding2.png" alt="Image of the front of Shanghai Gardens Restaurant in Seattle"></a>
+        <a href="https://jeffdinsmore.com/AstraPracticePartners"><img class="image-home2" src="https://jeffdinsmore.com/images/AstraPractice/Moda_2.png" alt="Image of Moda Health logo for Astra Practice Partners Project"></a>
+        
+    </div>
+      </div>
+      
+<footer id="footer">
+    <ul id="footer-left-nav">
+        <li><a href="https://www.linkedin.com/in/jeffmdinsmore/"><img id="LinkedInImage" src="https://jeffdinsmore.com/images/LinkedinLogo.png" alt="tap or click on LinkedIn image to go to Jeff Dinsmore's LinkedIn page"><span id="LinkedIn">LinkedIn</span></a></li>
+        <li><span id="Resume"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
+    </ul>
+    <ul id="footer-right-nav">
+        <li><span id="portland">Portland, OR</span></li>
+        <li><span id="Resume2"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
+        <li><span id="Email"><a href="mailto:hello@jeffdinsmore.com">Email</a></span></li>
+        <li><span id="Email2"><a href="mailto:hello@jeffdinsmore.com">hello@jeffdinsmore.com</a></span></li>
+    </ul>
+  </footer>
+   
+   <script>
+   /* When the user clicks on the button, 
+   toggle between hiding and showing the dropdown content */
+   function myFunction() {
+     document.getElementById("myDropdown").classList.toggle("show");
+   }
+   
+   // Close the dropdown if the user clicks outside of it
+   window.onclick = function(e) {
+     if (!e.target.matches('.dropbtn')) {
+     var myDropdown = document.getElementById("myDropdown");
+       if (myDropdown.classList.contains('show')) {
+         myDropdown.classList.remove('show');
+       }
+     }
+   }
+   </script>
+   </body>
+</html>

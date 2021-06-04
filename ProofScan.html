@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeff Dinsmore - UX Designer</title>
+    <meta property="og:title" content="Software Developer" />
+    <meta property="og:url" content="https://jeffdinsmore.com" />
+    <meta property="og:image" content="https://jeffdinsmore.com/images/OGWebsiteLogo.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Software Developer & UX Design Portfolio" />
+
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="https://jeffdinsmore.com/images/LogoMark2.png">
+    <link rel="preload" href="https://jeffdinsmore.com/Fonts/BentonSans-Regular-Regular.otf" as="font" type="font/otf" crossorigin>
+    <link rel="preload" href="https://jeffdinsmore.com/Fonts/NimbusSan-Bold.ttf" as="font" type="font/ttf" crossorigin>
+</head>
+
+<body>
+<script src="https://jeffdinsmore.com/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      let hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+ <header id="Top"></header>
+  <a href="https://jeffdinsmore.com"><img id="logo" alt="Jeff Dinsmore website logo. Click or tap to go to home page" src="https://jeffdinsmore.com/images/WebsiteLogo.png"></a>
+  <div class="navbar">
+    
+    <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Portfolio
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="https://jeffdinsmore.com/ProofScan">ProofScan</span></a>
+      <a href="https://jeffdinsmore.com/AstraPracticePartners">Astra Practice Partners</a>
+      <a href="https://jeffdinsmore.com/NewSeasons">New Seasons</a>
+      <a href="https://jeffdinsmore.com/ShanghaiGardens">Shanghai Gardens</a>
+    </div>
+    </div> 
+  </div>
+  <hr>
+
+<br><br>
+  
+  <img class="image-header-ProofScan" alt="ProofScan logo" src="https://jeffdinsmore.com/images/TransparentPath/ProofScanLogo2.png">
+
+  <div class="image"></div>
+  <!--<h2>ProofScan Native App by Transparent Path</h2>-->
+  
+  <h1>PROJECT SUMMARY</h1>
+  <p>Our team designed a native app for Transparent Path called ProofScan that tracks perishable whole foods from origin to the retailer. We performed extensive discovery research to determine what consumers would want in the app. Currently there is no app for this product.</p>
+  
+  <p>Through research and the needs of the company, we found that consumers desired a method to discover the origins of their food, how safely the food was transported, and the path the food took before arriving at its destination. We came up with a design that scans the QR code on the product, reveals a ProofScore, and shows the origin and path the product took.</p>
+  
+  <h2>Overview</h2>
+  
+  <p><span style="font-family:Nimbus;">Sprint: </span>3 Weeks</p>
+  
+  <p><span style="font-family:Nimbus;">Project Type:</span> New Native App Design, Client Team Project</p>
+  
+  <p><span style="font-family:Nimbus;">My Role:</span> Information Architect, Content Strategist and UX Generalist</p>
+  
+  <p><span style="font-family:Nimbus;">Skills:</span> User-Accessible Architectures, Competitive Analysis, Sitemaps, Content Development</p>
+  
+  <p><span style="font-family:Nimbus;">Tools:</span> Sketch, Google Sheets, Google Docs, Pen, Paper, Whiteboard, Keynote</p>
+  
+  <p><span style="font-family:Nimbus;">UX Designers:</span> Jeff Dinsmore, Sarah Evans, Dwight Stoddard<br>
+  <span style="font-family:Nimbus;">UX Researcher:</span> Martina Dove, PhD.</p>
+  
+  <h1>PROBLEM & GOAL</h1>
+
+  <H2>Problem</H2>
+
+  <p>What information do consumers want to see about their food? What features do we design in an app for showing the path perishable foods take from their origin to their retailer? What do consumers want to have in this app and how do we display this information in an easily digestible way?</p>
+  
+  <h2>Goal</h2>
+
+  <p>Created discovery research to uncover what information consumers would find valuable. Design a native app that displays the travel path in the food chain and provides a score for the transparency that consumers would resonate with.</p>
+  
+  <h3 style="margin-bottom:5px">Navigating Product Details</h3>
+  <div class="container">
+    <div class="picture"><img class="image-single" alt="A GIF showing a quick walkthrough of scanning an item and seeing the path and origin" src="https://jeffdinsmore.com/images/TransparentPath/image1.gif">
+      <div class="text-box" style="overflow:scroll;">Scanning the QR code on a food product will populate specific information about food transparency. We designed and chose a ProofScore as an “arch” or “fuel gauge” based on user testing several other designs. This design was the most credible and visually appealing for our test participants.<br><br>
+  
+      In order to show easily digestible information, we designed a deeper dive from the ProofScan page for consumers to be able to see detailed information on origins, path of the food chain, and smart sensor data.</div>
+    </div>
+  </div>
+  
+<H1>THE PROCESS AND HOW WE GOT THERE</h1>
+
+<p>Since Transparent Path had done some preliminary research, our team started sketching designs at the same time our UX Researcher was developing additional discovery research. We integrated the research results into the designs and proceeded to prototyping and user testing. We finalized our designs with the user test results.</p>
+
+<h2>Research</h2>
+<p>Our team set up initial interviews to determine how people felt about food safety and food transparency.</p> 
+
+<h3>Research process</h3>
+<p>Interviews → Concept Testing → Affinity Mapping → Survey → Online Card Sort → User Testing</p>
+
+
+<table class="Table-desktop">
+  <tr>
+    <th>Interviews</th>
+    <th>Concept Testing</th>
+    <th>Affinity Mapping</th>
+    <th>Survey</th>
+    <th>Online Card Sort</th>
+    <th>User Testing</th>
+  </tr>
+  <tr>
+    <td>Uncover what consumers want in a food transparency app</td>
+    <td>Find out what participants think about the ProofScore concept</td>
+    <td>Synthesize consumer interviews and identify consumer needs</td>
+    <td>Gather insights and qualitative data from a wide consumer group
+    </td>
+    <td>Explore what might be included in calculating the ProofScore</td>
+    <td>Test functionality of the app and consumer preferences on the ProofScore</td>
+  </tr>
+</table>
+
+<table class="Table-mobile-large">
+ <tr>
+   <th>Interviews</th>
+   <th>Concept Testing</th>
+   <th>Affinity Mapping</th>
+ </tr>
+ <tr>
+   <td>Uncover what consumers want in a food transparency app</td>
+   <td>Find out what participants think about the ProofScore concept</td>
+   <td>Synthesize consumer interviews and identify consumer needs</td>
+ </tr>
+ </table>
+ <p></p>
+ <table class="Table-mobile-large">
+ <tr>
+   <th>Survey</th>
+   <th>Online Card Sort</th>
+   <th>User Testing</th>
+ </tr>
+ <tr>
+  <td>Gather insights and qualitative data from a wide consumer group</td>
+  <td>Explore what might be included in calculating the ProofScore</td>
+  <td>Test functionality of the app and consumer preferences on the ProofScore</td>
+ </tr>
+</table>
+
+<table class="Table-mobile-small">
+ <tr>
+   <th>Interviews</th>
+   <th>Concept Testing</th>
+ </tr>
+ <tr>
+   <td>Uncover what consumers want in a food transparency app</td>
+   <td>Find out what participants think about the ProofScore concept</td>
+ </tr>
+ </table>
+ <p></p>
+ <table class="Table-mobile-small">
+ <tr>
+   <th>Affinity Mapping</th>
+   <th>Survey</th>
+ </tr>
+ <tr>
+   <td>Synthesize consumer interviews and identify consumer needs</td>
+   <td>Gather insights and qualitative data from a wide consumer group</td>
+ </tr>
+ </table>
+ <p></p>
+ <table class="Table-mobile-small">
+ <tr>
+   <th>Online Card Sort</th>
+   <th>User Testing</th>
+  </tr>
+  <tr>
+    <td>Explore what might be included in calculating the ProofScore</td>
+    <td>Test functionality of the app and consumer preferences on the ProofScore</td>
+ </tr>
+</table>
+
+
+<h2>Synthesize</h2>
+
+<p>From this research, we gathered that participants had a desire for knowing where their product came from and how it was transported. Participants wanted a score to be visually appealing, to look credible, and to give them some kind of reassurance.</p>
+
+<h1>DESIGN PROCESS</h1>
+<p>The design process started with some known elements. These elements were based on preliminary research findings that demonstrated consumers were interested in knowing the origin and path of their food, a score for the transparency of the food product, and the technology of how to track the food product. We used this as a starting point in our designs by sketching out the Origin, Path (Provenance) and ProofScore pages.</p>
+
+<h2>Origin Page</h2>
+<div class="container-pink2">
+  <div class="picture3"><img src="https://jeffdinsmore.com/images/TransparentPath/OriginsSketch.png" alt="First drawing of origin page" style="width:30.4%">
+  <img src="https://jeffdinsmore.com/images/TransparentPath/OriginscreenV2.png" alt="first wireframe of origin page" style="width:23%; padding-left:5%"></div>
+<div class="text-box3">When discussing early designs of the Origin page with our peers, we found that there were too many taps to expand information.</div>
+</div>
+</div>
+
+<h3 style="margin-bottom:5px">Origin Page Final Design</h3>
+<div class="container-pink">
+  <div class="picture" ><img src="https://jeffdinsmore.com/images/TransparentPath/OriginPageFinal.png" alt="final design of origin page" style="width:26%">
+    <div class="text-box-pink">We adjusted the design to include information that a consumer could easily view without having to click to open up.</div>
+</div>
+</div>
+
+<h2>Path Page</h2>
+
+<div class="container-green2">
+  <div class="picture3"><img src="https://jeffdinsmore.com/images/TransparentPath/ProvenanceSketchJeff.png" alt="first iteration drawing of path page" style="width:25%">
+  <img class="picture4" src="https://jeffdinsmore.com/images/TransparentPath/ProvenanceSketchV2.png" alt="second iteration drawing of path page" style="width:30%">
+  <div class="text-box-green2">Sarah and I sketched out two designs for the Path (Provenance) page.</div>
+  </div>
+</div>
+
+
+<h3 style="margin-bottom:5px">Path Page First Version</h3>
+<div class="container-green">
+  <div><img src="https://jeffdinsmore.com/images/TransparentPath/ProvenanceV2.png" alt="first wireframe of path page" style="width:25%; padding: 3% 0% 3% 4%">
+    <div class="text-box-green">We executed early testing with our peers on the first version and found that the word “Provenance” did not resonate with anyone. Also, the tabs were too cluttered and confusing.
+    <br><br>
+    Changes were made and we decided to go with a map view that included icons.</div>
+</div>
+</div>
+
+<h3 style="margin-bottom:5px">Path Map View First Version</h3>
+<div class="container-green2">
+  <div class="picture3"><img src="https://jeffdinsmore.com/images/TransparentPath/ProvenanceSketchMap.png" alt="first iteration drawing of path map page" style="width:24.3%; padding-top:0%">
+  <img src="https://jeffdinsmore.com/images/TransparentPath/ProvenanceMapV1.png" alt="first wireframe of path map page" style="width:26%; padding-top:0%; padding-left:6.5%">
+  <div class="text-box-green2">User testing revealed that participants desired a map view but wanted more details listed. We took into consideration visual and complexity issues with food products that traveled around the world.</div>
+  </div>
+</div>
+
+<h3 style="margin-bottom:5px">Path Map View Final Design</h3>
+<div class="container">
+  <div><img src="https://jeffdinsmore.com/images/TransparentPath/PathDiveMap.png" alt="final design of the path map page" style="width:24%; padding: 3% 0% 3% 4%">
+    <div class="text-box">I created a new map that was able to expand or contract, and a consumer could click on the icons to find detailed info of the path. The map and the detailed view was used in the final design.</div>
+      </div>
+      </div>
+
+<h3  style="margin-bottom:5px">Path Page Final Design</h3>
+<div class="container">
+  <div><img src="https://jeffdinsmore.com/images/TransparentPath/PathDive1.png" alt="final design of the path page" style="width:25%; padding: 3% 0% 3% 4%">
+    <div class="text-box">The detailed view is also part of the final design where a consumer can swipe the map to get additional path information.</div>
+    </div>
+    </div>
+
+<h3 style="margin-bottom:5px">Navigating the Path Pages</h3>
+<div class="container">
+  <div><img src="https://jeffdinsmore.com/images/TransparentPath/ProofScanVideoPath.gif" alt="A GIF demonstrating navigating the various path pages" style="width:25%; padding: 3% 0% 3% 4%">
+    <div class="text-box">A consumer can see the path the food takes on a whole map or they can view the details of each trip the food took to get to the retailer.</div>
+    </div>
+  </div>
+
+<h2>ProofScore Page</h2>
+
+<div class="container-pink2">
+  <div><img src="https://jeffdinsmore.com/images/TransparentPath/ProofScoreJeffV2.png" alt="second iteration drawing of the ProofScore page" style="width:25%; padding: 3% 0% 3% 4%">
+  <img src="https://jeffdinsmore.com/images/TransparentPath/ProofScoreSketchV2.png" alt="third iteration drawing of the ProofScore page" style="width:26%; padding:3% 0% 3% 5%">
+  <div class="text-box3">We designed the ProofScore page to be the first thing a consumer sees after scanning a product. The color scheme and detailed information from the first sketch, and the score and interaction design from the second sketch were combined to inform our final design.</div>
+</div>
+</div>
+
+<h3 style="margin-bottom:5px">ProofScore Usability Test Page</h3>
+<div class="container-pink">
+  <img src="https://jeffdinsmore.com/images/TransparentPath/ProofScoreUserTest.png" alt="Wireframe used in performing a usability test on the ProofScore page" style="width:25%; padding: 3% 0% 3% 4%">
+  <div class="text-box2">This design of the ProofScore page was used in a user test. The Origin and Provenance section acted as a carousel and a consumer could swipe to get more information. The user testing revealed:
+  <ul class="bullet">
+    <li>Visibility issues with light colors and small text</li>
+    <li>Too much information overwhelmed the use</li>
+    <li>Excessive white space around the score minimized important content, making copy challenging to read</li></ul></div>
+</div>
+
+  <h2>ProofScore Preference Test</h2>
+  <p>This led the research team to conduct a preference test on the visual of the Proof Score. We created multiple styles of displaying a score and used these in the preference test.</p>
+  
+  <div class="container-pink-score"><img src="https://jeffdinsmore.com/images/TransparentPath/ScoreTest.png" alt="six different iteration drawings of how the score will be displayed on the ProofScore page" style="width:78%; padding: 3% 0% 3% 4%">
+    <p class="p5" style="margin-left: 4%"><span style="font-family: nimbus">1.</span> A preference test on the visual score found that most participants preferred the Fico Style Score.</p>
+  </div>
+
+<h3 style="margin-bottom:5px">Score Preference A/B Test</h3>
+<img src="https://jeffdinsmore.com/images/TransparentPath/ScoreTestA.png" alt="high fidelity image of circular score shown in an A/B preference test" style="width:28%; margin-left:10%; padding: 3% 0% 3% 0%">
+<img src="https://jeffdinsmore.com/images/TransparentPath/ScoreTestB2.png" alt="high fidelity image of arch score shown in A/B preference test. This score was preferred and placed in our final designs on the ProofScore page" style="width:35%; padding-left:10%">
+<p class="p5"><span style="font-family: nimbus;">A.</span> An additional preference test using high fidelity wireframes was performed with most participants preferring the Fico Style Score again.</p>
+
+<h2>ProofScore Page Final Design</h2>
+<div class="container2">
+  <div class="picture" ><img src="https://jeffdinsmore.com/images/TransparentPath/ScorePageFinal.png" alt="ProofScore page final design wireframe" style="width:25%">
+    <div class="text-box2">In the final design, we redesigned the Origin and Path sections by eliminating the carousel and adding a summary of the details. Tapping these tabs will take the consumer into a deeper dive of those elements on a separate page. We also updated the ProofScore visual and the text color to be more readable.</div>
+    </div>
+  </div>
+
+<h1>ADDITIONAL FEATURES</h1>
+<div class="container">
+  <div class="picture"><img src="https://jeffdinsmore.com/images/TransparentPath/ProofScanAdditions.gif" alt="A GIF showing additional features designed for the app" style="width:25%">
+    <div class="text-box">Additions to the app are a My Scans page for previously scanned items and a Learn page to get information about food transparency and specific recalls.</div>
+    </div>
+  </div>
+
+<h2>Video Walkthrough</h2>
+<p>The first time opening the app to exploring all the pages.</p>
+
+<div class="container3">
+  <div class="video">
+  <iframe class="video2" src="https://www.youtube.com/embed/0tNxba8Us7I" title="video showing a walkthrough on all the features of the app" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</div>
+<h1>CONCLUSION</h1>
+
+<p style="clear:right">We completed research and designed an app for the consumer, but there is more to be done. Research would be needed on the shipping, distribution and production side to determine what information can be collected, and if it would cause additional work for these stakeholders. A design for the supply chain to utilize would help complete the app. It was exciting to collaborate on such a compelling and relevant app and I am excited to see Transparent Path's journey unfold.</p>
+
+<a href="#Top"><img class="TopArrow" alt="tap or click on arrow to return to top of page" src="https://jeffdinsmore.com/images/TopArrow.png"></a>
+</div>
+
+<br><br><br><br>
+
+<footer id="footer">
+ <ul id="footer-left-nav">
+     <li><a href="https://www.linkedin.com/in/jeffmdinsmore/"><img id="LinkedInImage" alt="tap or click on LinkedIn image to go to Jeff Dinsmore's LinkedIn page" src="https://jeffdinsmore.com/images/LinkedinLogo.png"><span id="LinkedIn">LinkedIn</span></a></li>
+     <li><span id="Resume"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
+ </ul>
+ <ul id="footer-right-nav">
+     <li><span id="portland">Portland, OR</span></li>
+     <li><span id="Resume2"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
+     <li><span id="Email"><a href="mailto:hello@jeffdinsmore.com">Email</a></span></li>
+     <li><span id="Email2"><a href="mailto:hello@jeffdinsmore.com">hello@jeffdinsmore.com</a></span></li>
+ </ul>
+</footer>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+</body>
+</html>
