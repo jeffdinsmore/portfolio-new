@@ -28,14 +28,14 @@ a{
   padding:0%;
   list-style-type: none;
 }
-.navbar {
+.navbarJeff {
   overflow: hidden;
   background-color: white;
   height: 100px;
 
 }
 
-.navbar a {
+.navbarJeff a {
   float: left;
   font-size: 26px;
   color: black;
@@ -44,14 +44,14 @@ a{
   text-decoration: none;
 }
 
-.dropdown {
+.dropdownJeff {
   float: right;
   overflow: hidden;
   margin-right:14%;
   margin-top:44px;
 }
 
-.dropdown .dropbtn {
+.dropdownJeff .dropbtn {
   cursor: pointer;
   font-size: 24px;  
   border: none;
@@ -63,11 +63,11 @@ a{
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbarJeff a:hover, .dropdownJeff:hover .dropbtn, .dropbtn:focus {
   color: none;
 }
 
-.dropdown-content {
+.dropdownJeff-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -76,7 +76,7 @@ a{
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdownJeff-content a {
   float: none;
   Font-family: Benton;
   color: #8FB7AE;
@@ -86,7 +86,7 @@ a{
   display: block;
   text-align: left;
 }
-#dropdown-text{
+#dropdownJeff-text{
   Font-family: Benton;
   color: #8FB7AE;
   font-size: 20px;
@@ -95,7 +95,7 @@ a{
   overflow:wrap;
 }
 
-.dropdown-content a:hover {
+.dropdownJeff-content a:hover {
   background-color: #ddd;
 }
 
@@ -1258,20 +1258,20 @@ ul.card-sort {
 }
 @media screen and (min-width: 900px) {
  /*----Header---*/
- .navbar {
+ .navbarJeff {
   overflow: hidden;
   background-color: white;
   height: 140px;
 
 }
-.dropdown {
+.dropdownJeff {
   float: right;
   overflow: hidden;
   margin-right:11%;
   margin-top:77.5px;
 }
 
-.dropdown .dropbtn {
+.dropdownJeff .dropbtn {
   cursor: pointer;
   font-size: 32px;  
   border: none;
@@ -1283,11 +1283,11 @@ ul.card-sort {
   margin: 0;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbarJeff a:hover, .dropdownJeff:hover .dropbtn, .dropbtn:focus {
   color: none;
 }
 
-.dropdown-content {
+.dropdownJeff-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -1296,7 +1296,7 @@ ul.card-sort {
   z-index: 1;
 }
 
-.dropdown-content a {
+.dropdownJeff-content a {
   float: none;
   Font-family: Benton;
   color: #8FB7AE;
@@ -1306,7 +1306,7 @@ ul.card-sort {
   display: block;
   text-align: left;
 }
-#dropdown-text{
+#dropdownJeff-text{
   Font-family: Benton;
   color: #8FB7AE;
   font-size: 20px;
@@ -1315,7 +1315,7 @@ ul.card-sort {
   overflow:wrap;
 }
 
-.dropdown-content a:hover {
+.dropdownJeff-content a:hover {
   background-color: #ddd;
 }
 

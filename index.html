@@ -1,81 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jeff Dinsmore - UX Designer</title>
-    <meta property="og:title" content="Software Developer" />
-    <meta property="og:url" content="https://jeffdinsmore.com" />
-    <meta property="og:image" content="https://jeffdinsmore.com/images/OGWebsiteLogo.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Software Developer & UX Design Portfolio" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeff Dinsmore - Software Developer</title>
+  <meta property="og:title" content="Software Developer" />
+  <meta property="og:url" content="https://jeffdinsmore.com" />
+  <meta property="og:image" content="https://jeffdinsmore.com/images/OGWebsiteLogo.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="Software Developer & UX Design Portfolio" />
 
-    <link href="css/main.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" type="image/png" href="https://jeffdinsmore.com/images/LogoMark2.png">
-    <link rel="preload" href="https://jeffdinsmore.com/Fonts/BentonSans-Regular-Regular.otf" as="font" type="font/otf" crossorigin>
-    <link rel="preload" href="https://jeffdinsmore.com/Fonts/NimbusSan-Bold.ttf" as="font" type="font/ttf" crossorigin>
-
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/png" href="https://jeffdinsmore.com/images/LogoMark2.png">
+  <link rel="preload" href="https://jeffdinsmore.com/Fonts/BentonSans-Regular-Regular.otf" as="font" type="font/otf"
+    crossorigin>
+  <link rel="preload" href="https://jeffdinsmore.com/Fonts/NimbusSan-Bold.ttf" as="font" type="font/ttf" crossorigin>
 </head>
+
 <body>
+    <script src="https://jeffdinsmore.com/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
 
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
 
-    <a href="https://jeffdinsmore.com"><img id="logo" alt="Jeff Dinsmore website logo. Click or tap to go to home page" src="https://jeffdinsmore.com/images/WebsiteLogo.png"></a>
-    <div class="navbar">
-      
-      <div class="dropdown">
-      <button class="dropbtn" onclick="myFunction()">Portfolio
-      </button>
-      <div class="dropdown-content" id="myDropdown">
-        <a href="https://jeffdinsmore.com/ProofScan">ProofScan</span></a>
-        <a href="https://jeffdinsmore.com/AstraPracticePartners">Astra Practice Partners</a>
-        <a href="https://jeffdinsmore.com/NewSeasons">New Seasons</a>
-        <a href="https://jeffdinsmore.com/ShanghaiGardens">Shanghai Gardens</a>
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function () {
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+    </script>
+    <header id="Top"></header>
+    <a href="https://jeffdinsmore.com"><img id="logo" alt="Jeff Dinsmore website logo. Click or tap to go to home page"
+        src="https://jeffdinsmore.com/images/WebsiteLogo.png"></a>
+    <div class="navbarJeff">
+
+      <div class="dropdownJeff">
+        <button class="dropbtn" onclick="myFunction()">Portfolio
+        </button>
+        <div class="dropdownJeff-content" id="myDropdownJeff">
+          <a href="https://jeffdinsmore.com">Developer</a>
+          <a href="https://jeffdinsmore.com/DesignerPortfolio">Designer</a>
+          <a href="https://jeffdinsmore.com/ProofScan">ProofScan</a>
+          <a href="https://jeffdinsmore.com/AstraPracticePartners">Astra Practice Partners</a>
+          <a href="https://jeffdinsmore.com/NewSeasons">New Seasons</a>
+          <a href="https://jeffdinsmore.com/ShanghaiGardens">Shanghai Gardens</a>
+        </div>
       </div>
-      </div> 
     </div>
     <hr>
-<br><br>
-<body>
-    <div class="container-home">
-        <div class="text-box-home"><p  class="About">About me</p>I'm Jeff, a UX Designer who enjoys designing websites, programs and apps that people love to use!</div>
-        
-        <div class="picture-box-home"><a href="https://jeffdinsmore.com/ProofScan"><img class="image-home" src="https://jeffdinsmore.com/images/TransparentPath/ProofScanLogo2.png" alt="Logo of ProofScan app by Transparent Path" ></a> 
-        <a href="https://jeffdinsmore.com/NewSeasons"><img class="image-home2" src="https://jeffdinsmore.com/images/NewSeasons/NSMWilliams2.png" alt="Image of New Seasons Market Williams store"></a>
-        <a href="https://jeffdinsmore.com/ShanghaiGardens"><img class="image-home" src="https://jeffdinsmore.com/images/ShanghaiGardens/ShanghaiBuilding2.png" alt="Image of the front of Shanghai Gardens Restaurant in Seattle"></a>
-        <a href="https://jeffdinsmore.com/AstraPracticePartners"><img class="image-home2" src="https://jeffdinsmore.com/images/AstraPractice/Moda_2.png" alt="Image of Moda Health logo for Astra Practice Partners Project"></a>
-        
-    </div>
+    <br>
+    <div class="container">
+      <div class="text-box-home">
+        <p class="About">About Me</p>
+      <div class="container">
+        <div class="row">
+          <!-- <div class="col-6">
+            <img class="img-myself" src="images/Jeff-beemask.jpg">
+          </div> -->
+          <div class="col-6" style="background-color: lightgray">
+            <p>Born and raised in the Pacific Northwest I really enjoy the temperate climate. I have a passion for figuring out difficult problems.</p>
+            <p>I came to coding school because I wanted to nurture my desire to problem solve. Watching something
+              blossom from a bare bones project to a beautiful functioning program or website is very fulfilling.</p>
+            <p>I enjoy desserts, dancing and superhero movies. Some of my favorite shows are:</p></div>
+            
+              <p><em>Avatar: The Last Airbender (series)</em><br>
+              <em>Avengers Endgame</em><br>
+              <em>Loki</em></p>
+            
+          </div>
+        </div>
       </div>
-      
-<footer id="footer">
-    <ul id="footer-left-nav">
-        <li><a href="https://www.linkedin.com/in/jeffmdinsmore/"><img id="LinkedInImage" src="https://jeffdinsmore.com/images/LinkedinLogo.png" alt="tap or click on LinkedIn image to go to Jeff Dinsmore's LinkedIn page"><span id="LinkedIn">LinkedIn</span></a></li>
-        <li><span id="Resume"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
-    </ul>
-    <ul id="footer-right-nav">
+
+      <h2>Projects</h2>
+      <div class="container-projects">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">HTML & CSS</h5>
+                <ul class="card-text">
+                  <li><a href="https://github.com/jeffdinsmore/my-first-webpage">Building My First Webpage</a> -
+                    Practicing building my first webpage.</li>
+                  <li><a href="https://github.com/jeffdinsmore/animal-shelter">Adopt An Animal Today!</a> - An animal
+                    shelter website.</li>
+                  <li><a href="https://github.com/jeffdinsmore/blogging-site">Check Out My Blog</a> - A basic bloggin
+                    site.</li>
+                  <li><a href="https://github.com/jeffdinsmore/favorite-band">My Favorite Band</a> - Info on a favorite
+                    band.</li>
+                  <li><a href="https://github.com/jeffdinsmore/cupcake-shop">Come Taste These Delicious Cupcakes</a> - A
+                    cupcake shop site.</li>
+                  <li><a href="https://github.com/jeffdinsmore/dog-website">Rufus The Dog</a> - Learn about Rufus the
+                    dog.
+                  </li>
+                  <li><a href="https://github.com/jeffdinsmore/resort-website">Resort Website</a> - A resort site
+                    showing,
+                    activities, travel, acommodations and more.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">HTML, CSS with Bootstrap</h5>
+                <ul class="card-text">
+                  <li><a href="https://github.com/jeffdinsmore/wikipedia-rebuild">Building Wikipedia's Landing Page</a>
+                    -
+                    Building a website using the design and content of the Wikipedia landing page.</li>
+                  <li><a href="https://github.com/jeffdinsmore/vacation-site-1">My Favorite Vacation Spot</a> -
+                    Developed
+                    a single page vacation package website.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">HTML Only</h5>
+                <ul class="card-text">
+                  <li><a href="https://github.com/jeffdinsmore/hello-world">Hello World</a> - Tested out how a page
+                    would
+                    look by typing in "Hello World".</li>
+                  <li><a href="https://github.com/jeffdinsmore/cookie">Cookie Recipe</a> - Created a cooke recipe
+                    webpage.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2>My Background</h2>
+      <div class="box">
+        <h4 span style="clear:both">Education</span></h4>
+        <p><strong>Bachelor's Degree in Psychology</strong> - <em>Portland State</em><br>
+          <strong>User Experience Design Immersive</strong> - <em>General Assembly</em>
+        </p>
+      </div>
+      <h4>Job Experience</h4>
+      <h6>Contract UX Designer, Transparent Path (Stage 2 Startup) - Seattle, WA <em>Aug 2019 - Sep 2019</em></h6>
+      <ul>
+        <li>Worked in a team developing interaction designs in Sketch & Invision for a new app for consumers to
+          illustrate
+          a foods path from the distributor to the retailer</li>
+        <li>Led the strategy around concept designs, interaction & user flow of the app</li>
+        <li>Collaborated with UX researcher to develop interview questions & perform user testing with participants</li>
+        <li>Designed sketches & wireframes, including buttons & user flow for the history page & the interactive map
+          page
+        </li>
+      </ul>
+
+      <h6>Freelance UX Designer, Moda Health - Portland, OR <em>Sep 2018 - Jan 2019</em></h6>
+      <ul>
+        <li>Created wireframes & prototypes in Axure to clearly illustrate site functionality</li>
+        <li>Designed web interface elements including navigation components, drop down lists, buttons, toggles, patterns
+          &
+          text fields while adhering to style standards & guidelines</li>
+        <li>Prepared & presented drafts to internal team & key stakeholders including the UX director, sales, marketing
+          and legal teams</li>
+        <li>Recommended updates & implemented layout changes based on team feedback</li>
+      </ul>
+
+      <h6>Service Designer and Price File Manager, New Seasons - Portland, OR <em>May 2014 - Jul 2019</em></h6>
+      <ul>
+        <li>Owned communication between eight internal departments & the main office to open the first out of market
+          store
+          location in Mercer Island, Washington</li>
+        <li>Developed concept designs & tag designs using MS Publisher & Google Sheets for employee tools to improve
+          customer service utilizing observations of employees & customer feedback on pain points, iterating, then
+          testing
+          prototypes</li>
+        <li>Performed usability testing & incorporated outcomes to design systems & new processes resulting in increased
+          data accuracy & decreased labor</li>
+        <li>Collaborated with UI designers & developers to implement streamlined designs for the Auditing tool, NOF
+          Tracker, Z9 Report & tag printing</li>
+        <li>Groomed Price File Assistant to secure Price File Manager position</li>
+      </ul>
+
+      <h6>Consultant, MKG Financial - Portland, OR <em>Mar 2010 - Jul 2012</em></h6>
+      <ul>
+        <li>Updated website content daily utilizing CSS & HTML</li>
+        <li>Partnered with staff to meet strict deadlines below budget & ahead of schedule</li>
+        <li>Created internal procedure & training documents to improve consistency</li>
+      </ul>
+
+    </div>
+    <a href="#Top"><img class="TopArrow" src="https://jeffdinsmore.com/images/TopArrow.png"
+        alt="tap or click on arrow to return to top of page"></a>
+
+    <br><br><br><br>
+
+    <footer id="footer">
+      <ul id="footer-left-nav">
+        <li><a href="https://www.linkedin.com/in/jeffmdinsmore/"><img id="LinkedInImage"
+              src="https://jeffdinsmore.com/images/LinkedinLogo.png"
+              alt="tap or click on LinkedIn image to go to Jeff Dinsmore's LinkedIn page"><span
+              id="LinkedIn">LinkedIn</span></a></li>
+        <li><span id="Resume"><a href="https://jeffdinsmore.com/Resume-JeffDinsmore-May2021.pdf">Resume</span></a></li>
+      </ul>
+      <ul id="footer-right-nav">
         <li><span id="portland">Portland, OR</span></li>
-        <li><span id="Resume2"><a href="https://jeffdinsmore.com/JeffDinsmoreResume2020.pdf">Resume</span></a></li>
+        <li><span id="Resume2"><a href="https://jeffdinsmore.com/Resume-JeffDinsmore-May2021.pdf">Resume</span></a></li>
         <li><span id="Email"><a href="mailto:hello@jeffdinsmore.com">Email</a></span></li>
         <li><span id="Email2"><a href="mailto:hello@jeffdinsmore.com">hello@jeffdinsmore.com</a></span></li>
-    </ul>
-  </footer>
-   
-   <script>
-   /* When the user clicks on the button, 
-   toggle between hiding and showing the dropdown content */
-   function myFunction() {
-     document.getElementById("myDropdown").classList.toggle("show");
-   }
-   
-   // Close the dropdown if the user clicks outside of it
-   window.onclick = function(e) {
-     if (!e.target.matches('.dropbtn')) {
-     var myDropdown = document.getElementById("myDropdown");
-       if (myDropdown.classList.contains('show')) {
-         myDropdown.classList.remove('show');
-       }
-     }
-   }
-   </script>
-   </body>
+      </ul>
+    </footer>
+
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdownJeff").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function (e) {
+        if (!e.target.matches('.dropbtn')) {
+          let myDropdownJeff = document.getElementById("myDropdownJeff");
+          if (myDropdownJeff.classList.contains('show')) {
+            myDropdownJeff.classList.remove('show');
+          }
+        }
+      }
+    </script>
+</body>
+
 </html>

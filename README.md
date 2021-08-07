@@ -6,7 +6,7 @@
 
 ## Description
 
-https://jeffdinsmore.github.io/portfolio-new/
+https://jeffdinsmore.com/
 
 This website lists the projects that Jeff Dinsmore has pushed to Github. The site has an About Me seciton to list Jeff's work experience, a photo and some interests.
 

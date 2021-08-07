@@ -90,12 +90,12 @@ ul.header-footer{
   font-family: Benton;
   padding-right: 20px;
 }
-.dropdown {
+.dropdownJeff {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdownJeff-content {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -105,10 +105,10 @@ ul.header-footer{
   z-index: 1;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdownJeff:hover .dropdownJeff-content {
   display: block;
 }
-.dropdowntext {
+.dropdownJefftext {
   Font-family: Benton;
   color: #8FB7AE;
   font-size: 20px;
@@ -574,18 +574,18 @@ padding: 3% 0% 3% 4%;
     font-size: 24px;
     padding-right: 0px;
   }
-  .dropdown {
+  .dropdownJeff {
     position: relative;
     display: inline-block;
   }
-  .dropdowntext {
+  .dropdownJefftext {
     Font-family: Benton;
     color: #8FB7AE;
     font-size: 16px;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
   }
-  .dropdown-content {
+  .dropdownJeff-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -595,7 +595,7 @@ padding: 3% 0% 3% 4%;
     z-index: 1;
   }
   
-  .dropdown:click .dropdown-content {
+  .dropdownJeff:click .dropdownJeff-content {
     display: block;
   }
 }
